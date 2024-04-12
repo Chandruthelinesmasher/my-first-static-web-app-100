@@ -1,1 +1,149 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url(image5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    background-color: rgb(51, 50, 50);
+    display: flex;
+}
+.header img{
+   width: 80px;
+   height: 80px;
+   padding: 10px 10px;
+
+}
+.header h1{
+    color: white;
+    margin-top: 30PX;
+    margin-left: 100PX;
+    font-family: sans-serif;
+}
+.social-icon ul{
+  position: absolute;
+  top: 50px;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  display: flex;
+}
+.social-icon ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-icon ul li .fab{
+    font-size: 35px;
+    line-height: 60px;
+    transition: .3s;
+    color: white;
+}
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0.2);
+    transition: .6s;
+}
+
+.social-icon ul li a:hover{
+    transform: translate(0 -10%);
+}
+.social-icon ul li:nth-child(1) a:hover {
+    background-color:rgb(60, 132, 240) ;
+}
+.social-icon ul li:nth-child(2) a:hover {
+    background-color:rgb(247, 17, 208) ;
+}
+.social-icon ul li:nth-child(3) a:hover {
+    background-color:rgb(60, 132, 240) ;
+}
+.menu-bar{
+    background: white;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:black;
+}
+.active, .menu-bar ul li:hover {
+background: #f7b71e;
+border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    
+
+}
+.menu-bar ul li .sub-menu-1 ul li:hover{
+    background-color: #f7b71e;
+    
+    transition: .6s;
+}
+.mainpageheading h1{
+    font-size: 30px;
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+}
+.mainpageheading p{
+    margin: 20px auto;
+    font-weight:  100;
+    line-height: 25px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+.background-image-1{
+    background-size: cover;
+    display: inline-flex;
+}
+.PRINCIPALSPEECH{
+    margin-top: 100PX;
+    margin-left: 150px;
+}
+
+
+
